@@ -1,7 +1,13 @@
-import Meassage from './Message' ;
+import Meassage from './components/Message';
+import Gautam from './components/Gautam';
 
 function App() {
-  return <div><Meassage /></div> ;
+    return(
+        <>
+            <Meassage />
+            <Gautam />
+        </>
+    );
 }
 
 export default App;
